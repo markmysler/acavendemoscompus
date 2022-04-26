@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
     <title>Consultas</title>
 </head>
 <body>
@@ -60,28 +60,49 @@
             <div id="consultaFoto">
                 <img src="../multimedia/techsup.jpg" class="fotoConsulta">
             </div>
-            <form>
-                <fieldset class="formularioConsulta">
-                    
-                    <h4>Complete sus datos y uno de nuestros representantes se comunicara con usted a la brevedad.</h4>
-                    
-                    <div class="formItem">
-                        <p>Nombre y apellido</p>
-                        <input type="text" placeholder="Jose Gómez">
+            <form class="formularioContacto">
+                <div class="formulario2">
+        
+                    <label for="form-title" class="form-label">Complete sus datos y uno de nuestros representantes se comunicara
+                        con usted a la brevedad.</label>
+                    <div class="input-group mb-3">
+                        <input type="text" placeholder="Nombre" class="form-control" aria-label="Nombre"
+                            aria-describedby="Nombre">
+                        <input type="text" placeholder="Apellido" class="form-control" aria-label="Apellido"
+                            aria-describedby="Apellido">
                     </div>
-
-                    <div class="formItem">
-                        <p>Email de contacto</p>
-                        <input type="email" placeholder="mail@ejemplo.com">
+        
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon1">Email</span>
+                        <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                        <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
                     </div>
-
-                    <div class="formItem">
-                        <p>Consulta</p>
-                        <textarea placeholder="Cuentenos en que podemos ayudarle"></textarea>
+        
+        
+                    <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon3">Numero de telefono</span>
+                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3"
+                            placeholder="+54 911 1234-5678">
                     </div>
-
-                    <input type="button" value="Enviar" class="boton">
-                </fieldset>
+        
+                    <div class="form-check form-switch mb-3">
+                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+                        <label class="form-check-label" for="flexSwitchCheckDefault">Deseo ser contactado/a por llamada
+                            telefonica
+                            (de lo contrario nos comunicaremos via E-mail).</label>
+                    </div>
+        
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">Describa el problema</span>
+                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                    </div>
+                    <div class="input-group">
+                        <input class="btn btn-primary btn-lg" type="submit" value="Enviar">
+                        <input class="btn btn-secondary btn-lg" type="reset" value="Limpiar">
+                    </div>
+        
+                </div>
             </form>
         </div>
     </main>
