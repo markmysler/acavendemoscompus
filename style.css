@@ -144,9 +144,10 @@ border: 2px solid yellow;
     justify-content: right;
     align-content: top;
     padding: 1%;
-    border: 3px solid white;
-    background-color: black;
+    border: 3px solid black;
+    background-color: white;
     border-radius: 10px;
+    color: black;
 }
 .precio{
     display: flex;
@@ -550,10 +551,11 @@ justify-items: space-between;
         align-content: top;
         margin: 2%;
         padding: 2%;
-        border: 3px solid white;
-        background-color: black;
+        border: 3px solid black;
+        background-color: white;
         border-radius: 10px;
         font-size: smaller;
+        color: black;
     }
     .precio{
         display: flex;
@@ -588,7 +590,7 @@ justify-items: space-between;
     }
     
     form{
-        color: white;
+        color: black;
         width: 95vw;
         text-align: center;
         display: flex;
