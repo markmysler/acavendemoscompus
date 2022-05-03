@@ -86,7 +86,6 @@ footer {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    margin-right: 1%;
 }
 
 .copyright{
@@ -537,6 +536,7 @@ margin: 1%;
 
     .publicidad{
         width: 100%;
+        height: auto;
         margin: 2% 0% 2% 0%;
     }
 
