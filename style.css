@@ -68,12 +68,13 @@ header {
 
 
 footer {
-    margin: 1%;
+    margin-top: 1%;;
+    padding-top: 1%;
     color: white;
     font-size: 10px;
     display: flex;
     justify-content: space-between;
-
+    background-color: rgb(33, 37, 41);
 }
 
 .publicidad {
@@ -630,4 +631,58 @@ margin: 1%;
     .descripcion4{
         font-size: xx-small;
     }
+}
+/*  responsive 468px a 740px */
+
+@media only screen and (max-width: 740px) and (min-width: 468px){
+.publicidad{
+    height: 12vw;}
+}
+@media only screen and (max-width: 290px){
+    .fa {
+        text-decoration: none;
+        border-radius: 0%;
+        border: 1px solid black;
+    }
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    
+    .fa-facebook {
+        background: #3B5998;
+        color: white;
+        font-size: x-small;
+    }
+    
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+        font-size: x-small;
+    }
+    
+    .fa-youtube {
+        background: red;
+        color: white;
+        font-size: x-small;
+    }
+    
+    .fa-instagram {
+        background-color: darkblue;
+        color: white;
+        font-size: x-small;
+}
+footer{
+    font-size:xx-small;
+}
+.copyright{
+    align-items: flex-start;
+    width: 30%;
+}
+.redesSociales{
+    padding-bottom: 1%;
+}
+h1{
+    text-align: center;
+}
 }
