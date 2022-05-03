@@ -80,14 +80,16 @@ footer {
 }
 
 .redesSociales {
+    display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
     margin-right: 1%;
 }
 
-.copyright {
+.copyright p {
     display: flex;
-    align-items: flex-end;
-
+    align-items: bottom;
+    margin-bottom: 0;
 }
 
 aside {
@@ -118,8 +120,8 @@ aside {
 .contenedorFoto {
     width: 100%;
     background-color: white;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
     display: flex;
     justify-content: center;
 }
@@ -284,7 +286,9 @@ margin: 1%;
     grid-area: producto1;
     background-color: white;
     border: 2px solid black;
-    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
@@ -292,7 +296,9 @@ margin: 1%;
     grid-area: producto2;
     background-color: white;
     border: 2px solid black;
-    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
@@ -300,7 +306,9 @@ margin: 1%;
     grid-area: producto3;
     background-color: white;
     border: 2px solid black;
-    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
@@ -308,7 +316,9 @@ margin: 1%;
     grid-area: producto4;
     background-color: white;
     border: 2px solid black;
-    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
@@ -317,7 +327,9 @@ margin: 1%;
     background-color: white;
     border: 2px solid black;
     text-align: center;
-    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cantidad2 {
@@ -325,7 +337,9 @@ margin: 1%;
     background-color: white;
     border: 2px solid black;
     text-align: center;
-    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cantidad3 {
@@ -333,7 +347,9 @@ margin: 1%;
     background-color: white;
     border: 2px solid black;
     text-align: center;
-    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cantidad4 {
@@ -341,7 +357,9 @@ margin: 1%;
     background-color: white;
     border: 2px solid black;
     text-align: center;
-    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .precio1 {
@@ -349,7 +367,9 @@ margin: 1%;
     background-color: white;
     border: 2px solid black;
     text-align: center;
-    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .precio2 {
@@ -357,15 +377,18 @@ margin: 1%;
     background-color: white;
     border: 2px solid black;
     text-align: center;
-    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 .precio3 {
     grid-area: precio3;
     background-color: white;
     border: 2px solid black;
     text-align: center;
-    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .precio4 {
@@ -373,7 +396,9 @@ margin: 1%;
     background-color: white;
     border: 2px solid black;
     text-align: center;
-    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .descripcion1 {
@@ -381,8 +406,10 @@ margin: 1%;
     background-color: white;
     border: 2px solid black;
     text-align: center;
-    padding: 1.5%;
-    overflow: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 .descripcion2 {
@@ -390,8 +417,10 @@ margin: 1%;
     background-color: white;
     border: 2px solid black;
     text-align: center;
-    padding: 1.5%;
-    overflow: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 .descripcion3 {
@@ -399,8 +428,10 @@ margin: 1%;
     background-color: white;
     border: 2px solid black;
     text-align: center;
-    padding: 1.5%;
-    overflow: scroll;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 .descripcion4 {
@@ -408,8 +439,10 @@ margin: 1%;
     background-color: white;
     border: 2px solid black;
     text-align: center;
-    padding: 1.5%;
-    overflow: scroll;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .titulo1 {
@@ -418,7 +451,9 @@ margin: 1%;
     border: 2px solid black;
     text-align: center;
     font-size: x-large;
-    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: bold;
 }
 
@@ -428,7 +463,9 @@ margin: 1%;
     border: 2px solid black;
     text-align: center;
     font-size: x-large;
-    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: bold;
 }
 
@@ -438,7 +475,9 @@ margin: 1%;
     border: 2px solid black;
     text-align: center;
     font-size: x-large;
-    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: bold;
 }
 
@@ -448,7 +487,9 @@ margin: 1%;
     border: 2px solid black;
     text-align: center;
     font-size: x-large;
-    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-weight: bold;
 }
 
@@ -490,462 +531,100 @@ margin: 1%;
 
 /* Responsive a 468px */
 @media screen and (max-width: 468px) {
-    body {
-        background-image: url(multimedia/fondo2.jpg);
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-        overflow-x: hidden;
-    }
 
-    nav {
-        display: flex;
-    }
-
-    main {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    h2 {
-        color: whitesmoke;
-        margin: 2%;
-        text-align: center;
-    }
-
-    header {
-        margin-bottom: 1%;
-    }
-
-    .titulo {
-        margin: 2% 1% 2% 1%;
-        display: flex;
-        flex-direction: row;
+    .publicidad{
         width: 100%;
-        color: white;
-        justify-content: center;
-        font-size: medium;
-    }
-
-    .novedades {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .productosDestacados {
-        margin: 1%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .fotoProducto {
-        border-width: 3px;
-        border: 3px solid black;
-        border-radius: 10px;
-        margin: 1%;
-        width: 80%;
-        background-color: whitesmoke;
-    }
-
-    footer {
-        width: 98%;
-        margin-top: 5px;
-        color: white;
-        font-size: 10px;
-        display: flex;
-        justify-content: space-between;
-
-    }
-
-    .publicidad {
-        border-width: 3px;
-        border: 3px solid black;
-        border-radius: 10px;
-        width: 95%;
-        height: 9%;
-    }
-
-    .redesSociales {
-        justify-content: right;
-        display: grid;
-        grid-template-columns: repeat(4, 4%);
-        grid-template-rows: repeat(1, 5%);
-        grid-template-areas:
-            "fa fa-facebook fa fa-twitter fa fa-youtube fa fa-instagram";
-        gap: 33px 33px;
-        margin-right: 6vw;
-    }
-
-    .copyright {
-        display: flex;
-        align-items: flex-end;
-        margin: 0vw 0vw 1vw 1vw;
-    }
-
-    aside {
-        margin: 3% 0% 3% 0%;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .listaProductos {
-        color: white;
-        border-radius: 10px;
-        display: flex;
-        flex-direction: column;
-        width: 95%;
-    }
-
-    .irAlCarrito {
-        width: 34%;
-        border: 2px solid black;
-        padding: 1% 1% 1% 2%;
-        align-content: center;
-        background-color: white;
-        border-radius: 10px;
-        display: flex;
-        margin: 2%;
-
-    }
-
-    .botonPagar {
-        font-size: large;
-        text-decoration: none;
-        color: black;
-        flex-wrap: nowrap;
-
-    }
-
-    .contenedorProducto {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .tituloDescripcion {
-        display: flex;
-    }
-
-    .tituloProducto {
-        margin: 1%;
-    }
-
-    .descripcionProducto {
-        justify-content: right;
-        align-content: top;
-        margin: 2%;
-        padding: 2%;
-        border: 3px solid black;
-        background-color: white;
-        border-radius: 10px;
-        font-size: smaller;
-        color: black;
-    }
-
-    .precio {
-        display: flex;
-        align-content: bottom;
-        margin: 3%;
-    }
-
-    .precioDescripcion {
-        margin-right: 1%;
-    }
-
-    h3 {
-        margin: 3%;
-        text-align: center;
-    }
-
-    h4 {
-        margin: 1%;
-    }
-
-    .añadirCarrito {
-        margin: 1%;
-    }
-
-    .fotoFormulario {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-items: space-between;
-    }
-
-    .fotoConsulta {
-        border: 2px solid white;
-        border-radius: 10px;
         margin: 2% 0% 2% 0%;
-        width: 460px;
     }
 
-    form {
-        color: black;
-        width: 95vw;
-        text-align: center;
-        display: flex;
+    .cartaProducto{
+        width: 85%;
     }
 
-    .formItem {
-        margin: 1%;
-    }
-
-    .formularioConsulta {
-        border-radius: 10px;
-        padding: 1%;
-        display: flex;
-        flex-direction: column;
-        background-color: black;
-        overflow: hidden;
-
-    }
-
-    .formularioConsulta2 {
-        border-radius: 10px;
-        padding: 1%;
-        display: flex;
-        flex-direction: column;
-        background-color: black;
-        overflow: hidden;
-    }
-
-    textarea {
-        height: 10vw;
-        width: 93.5vw;
-    }
-
-    .botones {
-        text-align: right;
-    }
-
-    .boton {
-        padding: 1px;
-        width: 15%;
-        margin: 2%;
-        align-self: center;
-    }
-
-    .productosEnCarrito {
-        display: grid;
-        width: 100vw;
-        justify-content: center;
-        grid-template-columns: repeat(4, 24%);
-        grid-template-rows: repeat(5, 70px);
-        grid-template-areas:
-            "titulo1 titulo2 titulo3 titulo4"
-            "producto1 cantidad1 descripcion1 precio1"
-            "producto2 cantidad2 descripcion2 precio2"
-            "producto3 cantidad3 descripcion3 precio3"
-            "producto4 cantidad4 descripcion4 precio4";
-    }
-
-    .producto1 {
-        grid-area: producto1;
-        background-color: white;
-        border: 2px solid black;
-        padding-top: 20%;
-    }
-
-    .producto2 {
-        grid-area: producto2;
-        background-color: white;
-        border: 2px solid black;
-        padding-top: 20%;
-    }
-
-    .producto3 {
-        grid-area: producto3;
-        background-color: white;
-        border: 2px solid black;
-        padding-top: 20%;
-    }
-
-    .producto4 {
-        grid-area: producto4;
-        background-color: white;
-        border: 2px solid black;
-        padding-top: 20%;
-    }
-
-    .cantidad1 {
-        grid-area: cantidad1;
-        background-color: white;
-        border: 2px solid black;
-        text-align: center;
-        padding-top: 20%;
-    }
-
-    .cantidad2 {
-        grid-area: cantidad2;
-        background-color: white;
-        border: 2px solid black;
-        text-align: center;
-        padding-top: 20%;
-    }
-
-    .cantidad3 {
-        grid-area: cantidad3;
-        background-color: white;
-        border: 2px solid black;
-        text-align: center;
-        padding-top: 20%;
-    }
-
-    .cantidad4 {
-        grid-area: cantidad4;
-        background-color: white;
-        border: 2px solid black;
-        text-align: center;
-        padding-top: 20%;
-    }
-
-    .precio1 {
-        grid-area: precio1;
-        background-color: white;
-        border: 2px solid black;
-        text-align: center;
-        padding-top: 20%;
-    }
-
-    .precio2 {
-        grid-area: precio2;
-        background-color: white;
-        border: 2px solid black;
-        text-align: center;
-        padding-top: 20%;
-    }
-
-    .precio3 {
-        grid-area: precio3;
-        background-color: white;
-        border: 2px solid black;
-        text-align: center;
-        padding-top: 20%;
-    }
-
-    .precio4 {
-        grid-area: precio4;
-        background-color: white;
-        border: 2px solid black;
-        text-align: center;
-        padding-top: 20%;
-    }
-
-    .descripcion1 {
-        grid-area: descripcion1;
-        background-color: white;
-        border: 2px solid black;
-        text-align: center;
-        padding: 1.5%;
-        font-size: smaller;
-        overflow: hidden;
-    }
-
-    .descripcion2 {
-        grid-area: descripcion2;
-        background-color: white;
-        border: 2px solid black;
-        text-align: center;
-        padding: 1.5%;
-        font-size: smaller;
-        overflow: hidden;
-    }
-
-    .descripcion3 {
-        grid-area: descripcion3;
-        background-color: white;
-        border: 2px solid black;
-        text-align: center;
-        padding: 1.5%;
-        font-size: smaller;
-        overflow: hidden;
-    }
-
-    .descripcion4 {
-        grid-area: descripcion4;
-        background-color: white;
-        border: 2px solid black;
-        text-align: center;
-        padding: 1.5%;
-        font-size: smaller;
-        overflow: hidden;
-    }
-
-    .titulo1 {
-        grid-area: titulo1;
-        background-color: white;
-        border: 2px solid black;
-        text-align: center;
-        font-size: medium;
-        padding-top: 20%;
-        font-weight: bold;
-    }
-
-    .titulo2 {
-        grid-area: titulo2;
-        background-color: white;
-        border: 2px solid black;
-        text-align: center;
-        font-size: medium;
-        padding-top: 20%;
-        font-weight: bold;
-    }
-
-    .titulo3 {
-        grid-area: titulo3;
-        background-color: white;
-        border: 2px solid black;
-        text-align: center;
-        font-size: medium;
-        padding-top: 20%;
-        font-weight: bold;
-    }
-
-    .titulo4 {
-        grid-area: titulo4;
-        background-color: white;
-        border: 2px solid black;
-        text-align: center;
-        font-size: medium;
-        padding-top: 20%;
-        font-weight: bold;
+    .fotoProducto{
+        height: 35vw;
     }
 
     .fa {
-        padding: 20px;
-        width: 5%;
-        text-align: center;
+        padding: 15px;
         text-decoration: none;
-        border-radius: 10px;
+        border-radius: 100%;
         border: 1px solid black;
     }
-
+    
     .fa:hover {
         opacity: 0.7;
     }
-
+    
     .fa-facebook {
         background: #3B5998;
         color: white;
+        font-size: small;
+        padding: 15px 18px 15px 18px;
     }
-
+    
     .fa-twitter {
         background: #55ACEE;
         color: white;
+        font-size: small;
     }
-
+    
     .fa-youtube {
         background: red;
         color: white;
+        font-size: small;
     }
-
+    
     .fa-instagram {
         background-color: darkblue;
         color: white;
+        font-size: small;
+    }
+    footer{
+        display: flex;
     }
 
+    .productosDestacados{
+        display: flex;
+        flex-direction: column;
+    }
+    .fotoProductoInicio{
+        height: 40vw;
+    }
+    .formulario{
+        width: 95%;
+    }
+    .fotoConsulta{
+        height: 38vw;
+    }
+    .totalPagar{
+        margin: 3% 0% 3% 0%;
+    }
+    .productosEnCarrito{
+        margin: 1%;
+    }
+    .titulo1{
+        font-size: medium;
+    }
+    .titulo2{
+        font-size: medium;
+    }
+    .titulo3{
+        font-size: medium;
+    }
+    .titulo4{
+        font-size: medium;
+    }
+    .descripcion1{
+        font-size: xx-small;
+    }
+    .descripcion2{
+        font-size: xx-small;
+    }
+    .descripcion3{
+        font-size: xx-small;
+    }
+    .descripcion4{
+        font-size: xx-small;
+    }
 }
